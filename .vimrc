@@ -168,6 +168,15 @@ set background=dark
 " inoremap <expr> j ((pumvisible())?("\<C-n>"):("j"))
 " inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
 " just use ctrl-n and ctrl-p
+let mapleader = ","
+nnoremap <leader>ev :vsp $MYVIMRC<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
+
+inoremap jk <esc>
+
+iabbrev @@ Donoldfashioned@gmail.com
+iabbrev DD Don Draper
+
 
 " To get started
 " mkdir -p ~/.vim/bundle/
