@@ -8,6 +8,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-fugitive'
 Plugin 'Yggdroot/indentLine'
 Plugin 'itchyny/lightline.vim'
@@ -165,6 +166,7 @@ set background=dark
 
 
 " ================ Custom Settings ========================
+set conceallevel=0  " but it doesn't seem to work somehow...
 " inoremap <expr> j ((pumvisible())?("\<C-n>"):("j"))
 " inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
 " just use ctrl-n and ctrl-p
