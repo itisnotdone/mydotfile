@@ -91,13 +91,6 @@ set hlsearch        " Highlight searches by default
 set ignorecase      " Ignore case when searching...
 set smartcase       " ...unless we type a capital
 
-" Resize windows with arrow keys
-" https://github.com/skwp/dotfiles/blob/master/vim/settings/yadr-keymap-linux.vim
-nnoremap <C-Up> <C-w>+
-nnoremap <C-Down> <C-w>-
-nnoremap <C-Left> <C-w><
-nnoremap <C-Right>  <C-w>>
-
 " for indentLine
 " https://github.com/Yggdroot/indentLine
 let g:indentLine_color_term = 242
@@ -170,6 +163,20 @@ set conceallevel=0  " but it doesn't seem to work somehow...
 " inoremap <expr> j ((pumvisible())?("\<C-n>"):("j"))
 " inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
 " just use ctrl-n and ctrl-p
+
+" Resize windows with arrow keys
+" https://github.com/skwp/dotfiles/blob/master/vim/settings/yadr-keymap-linux.vim
+" nnoremap <C-Up> <C-w>+
+" nnoremap <C-Down> <C-w>-
+" nnoremap <C-Left> <C-w><
+" nnoremap <C-Right>  <C-w>>
+nnoremap <C-k> <C-w>+
+nnoremap <C-j> <C-w>-
+nnoremap <C-h> <C-w><
+nnoremap <C-l>  <C-w>>
+
+
+
 let mapleader = ","
 nnoremap <leader>ev :vsp $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
