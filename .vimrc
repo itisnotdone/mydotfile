@@ -110,7 +110,7 @@ autocmd BufReadPost fugitive://* set bufhidden=delete
 " for lightline
 " https://github.com/skwp/dotfiles/blob/79e5d1a9f4c77bc072775e1285d2aa48810defa7/vim/settings/lightline.vim
 let g:lightline = {
-      \ 'colorscheme': 'solarized',
+      \ 'colorscheme': 'PaperColor',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'fugitive', 'readonly', 'filename', 'modified' ] ]
@@ -174,8 +174,6 @@ nnoremap <C-k> <C-w>+
 nnoremap <C-j> <C-w>-
 nnoremap <C-h> <C-w><
 nnoremap <C-l>  <C-w>>
-
-
 
 let mapleader = ","
 nnoremap <leader>ev :vsp $MYVIMRC<cr>
