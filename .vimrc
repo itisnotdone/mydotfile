@@ -170,10 +170,10 @@ set conceallevel=0  " but it doesn't seem to work somehow...
 " nnoremap <C-Down> <C-w>-
 " nnoremap <C-Left> <C-w><
 " nnoremap <C-Right>  <C-w>>
-nnoremap <C-k> <C-w>+
-nnoremap <C-j> <C-w>-
-nnoremap <C-h> <C-w><
-nnoremap <C-l>  <C-w>>
+nnoremap <C-j> <C-w>+
+nnoremap <C-k> <C-w>-
+nnoremap <C-l> <C-w><
+nnoremap <C-h>  <C-w>>
 
 let mapleader = ","
 nnoremap <leader>ev :vsp $MYVIMRC<cr>
