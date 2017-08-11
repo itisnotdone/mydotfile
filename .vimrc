@@ -175,6 +175,9 @@ nnoremap <C-k> <C-w>-
 nnoremap <C-l> <C-w><
 nnoremap <C-h>  <C-w>>
 
+nnoremap <C-n> :tabprevious<CR>
+nnoremap <C-p> :tabnext<CR>
+
 let mapleader = ","
 nnoremap <leader>ev :vsp $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
@@ -186,8 +189,13 @@ iabbrev DD Don Draper
 
 
 " To get started
-" mkdir -p ~/.vim/bundle/
+" mkdir -p ~/.vim/bundle
+" mkdir ~/.vim/sessions
 " git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 " git clone https://github.com/itisnotdone/mydotfile.git
 " sudo ln -s ~/mydotfile/.vimrc ~/.vimrc
 " vim +PluginInstall +qall
+"
+" When using sessions
+" :mks ~/.vim/sessions/my_sessions1.vim
+" :source ~/.vim/sessions/my_sessions1.vim or vim -S ~/.vim/sessions/my_sessions1.vim
