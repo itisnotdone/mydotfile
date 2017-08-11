@@ -182,7 +182,7 @@ let mapleader = ","
 nnoremap <leader>ev :vsp $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
-inoremap jk <esc>
+inoremap kj <esc>
 
 iabbrev @@ Donoldfashioned@gmail.com
 iabbrev DD Don Draper
