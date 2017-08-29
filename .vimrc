@@ -175,8 +175,8 @@ nnoremap <C-k> <C-w>-
 nnoremap <C-l> <C-w><
 nnoremap <C-h>  <C-w>>
 
-nnoremap <C-n> :tabprevious<CR>
-nnoremap <C-p> :tabnext<CR>
+nnoremap <C-p> :tabprevious<CR>
+nnoremap <C-n> :tabnext<CR>
 
 let mapleader = ","
 nnoremap <leader>ev :vsp $MYVIMRC<cr>
