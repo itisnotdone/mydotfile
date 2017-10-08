@@ -7,9 +7,8 @@ mkdir -p ~/.vim/bundle
 mkdir ~/.vim/sessions
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-
-git clone https://github.com/itisnotdone/mydotfile.git
-sudo ln -s ~/mydotfile/.vimrc ~/.vimrc
+git clone https://github.com/itisnotdone/mydotfile.git ~/.vim/bundle/mydotfile
+sudo ln -s ~/.vim/bundle/mydotfile/.vimrc ~/.vimrc
 
 vim +PluginInstall +qall
 
