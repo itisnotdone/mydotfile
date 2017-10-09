@@ -180,5 +180,5 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 
 inoremap kj <esc>
 
-iabbrev @@ Donoldfashioned@gmail.com
+iabbrev @@ donoldfashioned@gmail.com
 iabbrev DD Don Draper
