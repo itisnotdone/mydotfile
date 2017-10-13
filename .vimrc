@@ -186,6 +186,7 @@ inoremap kj <esc>
 
 iabbrev @@ Donoldfashioned@gmail.com
 iabbrev DD Don Draper
+iabbrev PP require 'pry'; binding.pry
 
 
 " To get started
