@@ -166,10 +166,6 @@ set conceallevel=0  " but it doesn't seem to work somehow...
 
 " Resize windows with arrow keys
 " https://github.com/skwp/dotfiles/blob/master/vim/settings/yadr-keymap-linux.vim
-" nnoremap <C-Up> <C-w>+
-" nnoremap <C-Down> <C-w>-
-" nnoremap <C-Left> <C-w><
-" nnoremap <C-Right>  <C-w>>
 nnoremap <C-j> <C-w>+
 nnoremap <C-k> <C-w>-
 nnoremap <C-l> <C-w><
@@ -184,19 +180,6 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 
 inoremap kj <esc>
 
-iabbrev @@ Donoldfashioned@gmail.com
+iabbrev @@ donoldfashioned@gmail.com
 iabbrev DD Don Draper
 iabbrev PP require 'pry'; binding.pry
-
-
-" To get started
-" mkdir -p ~/.vim/bundle
-" mkdir ~/.vim/sessions
-" git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-" git clone https://github.com/itisnotdone/mydotfile.git
-" sudo ln -s ~/mydotfile/.vimrc ~/.vimrc
-" vim +PluginInstall +qall
-"
-" When using sessions
-" :mks ~/.vim/sessions/my_sessions1.vim
-" :source ~/.vim/sessions/my_sessions1.vim or vim -S ~/.vim/sessions/my_sessions1.vim
