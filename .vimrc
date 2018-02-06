@@ -185,3 +185,5 @@ iabbrev DD Don Draper
 iabbrev PP require 'pry'; binding.pry
 " Allow saving of files as sudo when I forgot to start vim using sudo.
 cmap w!! w !sudo tee > /dev/null %
+
+set wrap
