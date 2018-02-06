@@ -182,7 +182,9 @@ inoremap kj <esc>
 
 iabbrev @@ donoldfashioned@gmail.com
 iabbrev DD Don Draper
-iabbrev PP require 'pry'; binding.pry
+iabbrev PR require 'pry'; binding.pry
+iabbrev PP from ptpython.repl import embed; embed(globals(), locals())
+
 " Allow saving of files as sudo when I forgot to start vim using sudo.
 cmap w!! w !sudo tee > /dev/null %
 
