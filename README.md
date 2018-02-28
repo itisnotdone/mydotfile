@@ -6,8 +6,9 @@ This was only tested on Ubuntu 16.04 so might not fit with your environment.
 mkdir -p ~/.vim/bundle
 mkdir ~/.vim/sessions
 
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-git clone https://github.com/itisnotdone/mydotfile.git ~/.vim/bundle/mydotfile
+git clone https://github.com/VundleVim/Vundle.vim.git     ~/.vim/bundle/Vundle.vim
+git clone https://github.com/itisnotdone/mydotfile.git    ~/.vim/bundle/mydotfile
+
 sudo ln -s ~/.vim/bundle/mydotfile/.vimrc ~/.vimrc
 
 vim +PluginInstall +qall

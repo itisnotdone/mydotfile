@@ -13,6 +13,15 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'Yggdroot/indentLine'
 Plugin 'itchyny/lightline.vim'
 Plugin 'morhetz/gruvbox'
+"https://github.com/fatih/vim-go
+Plugin 'fatih/vim-go'
+"https://github.com/rhysd/vim-gfm-syntax
+Plugin 'rhysd/vim-gfm-syntax'
+"https://github.com/vadv/vim-chef
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'vadv/vim-chef'
 
 call vundle#end()
 " --------------------------------------
@@ -189,3 +198,9 @@ iabbrev PP from ptpython.repl import embed; embed(globals(), locals())
 cmap w!! w !sudo tee > /dev/null %
 
 set wrap
+
+"https://github.com/vadv/vim-chef
+autocmd FileType ruby,eruby set filetype=ruby.eruby.chef
+
+" to highlight inner code block
+let g:markdown_fenced_languages = ['cpp', 'xml', 'json', 'sh', 'go', 'ruby', 'python', 'java', 'javascript', 'sql' ]
