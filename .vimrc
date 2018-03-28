@@ -204,3 +204,7 @@ autocmd FileType ruby,eruby set filetype=ruby.eruby.chef
 
 " to highlight inner code block
 let g:markdown_fenced_languages = ['cpp', 'xml', 'json', 'sh', 'go', 'ruby', 'python', 'java', 'javascript', 'sql' ]
+
+" https://coderwall.com/p/if9mda/automatically-set-paste-mode-in-vim-when-pasting-in-insert-mode
+" Should setting paste be done automatically
+
