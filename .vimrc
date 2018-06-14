@@ -208,3 +208,5 @@ let g:markdown_fenced_languages = ['cpp', 'xml', 'json', 'sh', 'go', 'ruby', 'py
 " https://coderwall.com/p/if9mda/automatically-set-paste-mode-in-vim-when-pasting-in-insert-mode
 " Should setting paste be done automatically
 
+" Toggling 'paste' with Shift + e
+set pastetoggle=<s-e>
