@@ -209,7 +209,7 @@ let g:markdown_fenced_languages = ['cpp', 'xml', 'json', 'sh', 'go', 'ruby', 'py
 " Should setting paste be done automatically
 
 " Toggling 'paste/nopaste' with shift + e
-set pastetoggle=<s-p>
+set pastetoggle=<s-e>
 
 " Toggling 'nu/nonu' with shift + n
 nmap <S-N> :set invnumber<CR>
