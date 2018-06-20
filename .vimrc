@@ -213,3 +213,6 @@ set pastetoggle=<s-e>
 
 " Toggling 'nu/nonu' with shift + n
 nmap <S-N> :set invnumber<CR>
+
+" Toggling 'wrap/nowrap' with shift + w
+nmap <S-W> :set wrap! <CR>
