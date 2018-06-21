@@ -212,7 +212,7 @@ let g:markdown_fenced_languages = ['cpp', 'xml', 'json', 'sh', 'go', 'ruby', 'py
 set pastetoggle=<s-e>
 
 " Toggling 'nu/nonu' with shift + n
-nmap <S-N> :set invnumber<CR>
+nmap <S-M> :set invnumber<CR>
 
 " Toggling 'wrap/nowrap' with shift + w
 nmap <S-W> :set wrap! <CR>
