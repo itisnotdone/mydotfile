@@ -162,7 +162,7 @@ set laststatus=2
 set noshowmode
 
 " for gruvbox
-colorscheme gruvbox
+silent! colorscheme gruvbox
 set t_Co=256
 set background=dark
 
