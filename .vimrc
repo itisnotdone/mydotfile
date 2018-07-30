@@ -193,6 +193,7 @@ iabbrev @@ donoldfashioned@gmail.com
 iabbrev DD Don Draper
 iabbrev PR require 'pry'; binding.pry
 iabbrev PP from ptpython.repl import embed; embed(globals(), locals())
+iabbrev CL Chef::Log.warn()
 
 " Allow saving of files as sudo when I forgot to start vim using sudo.
 cmap w!! w !sudo tee > /dev/null %
