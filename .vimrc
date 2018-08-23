@@ -184,8 +184,13 @@ nnoremap <C-p> :tabprevious<CR>
 nnoremap <C-n> :tabnext<CR>
 
 let mapleader = ","
+let maplocalleader = "\\"
 nnoremap <leader>ev :vsp $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
+
+" to surround a word with " or '
+nnoremap <leader>" viw<esc>a"<esc>bi"<esc>lel
+nnoremap <leader>' viw<esc>a"<esc>bi'<esc>lel
 
 inoremap kj <esc>
 
@@ -206,14 +211,11 @@ autocmd FileType ruby,eruby set filetype=ruby.eruby.chef
 " to highlight inner code block
 let g:markdown_fenced_languages = ['cpp', 'xml', 'json', 'sh', 'go', 'ruby', 'python', 'java', 'javascript', 'sql' ]
 
-" https://coderwall.com/p/if9mda/automatically-set-paste-mode-in-vim-when-pasting-in-insert-mode
-" Should setting paste be done automatically
+" " Toggling 'paste/nopaste'
+nnoremap <leader>as :set paste!<cr>
 
-" " Toggling 'paste/nopaste' with shift + e
-" set pastetoggle=<c-?>
+" " Toggling 'nu/nonu'
+nnoremap <leader>nb :set nu!<cr>
 " 
-" " Toggling 'nu/nonu' with shift + n
-" nmap <C-?> :set invnumber<CR>
-" 
-" " Toggling 'wrap/nowrap' with shift + w
-" nmap <C-?> :set wrap! <CR>
+" " Toggling 'wrap/nowrap'
+nnoremap <leader>wr :set wrap!<cr>
