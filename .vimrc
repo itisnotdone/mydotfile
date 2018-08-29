@@ -206,7 +206,8 @@ cmap w!! w !sudo tee > /dev/null %
 set wrap
 
 "https://github.com/vadv/vim-chef
-autocmd FileType ruby,eruby set filetype=ruby.eruby.chef
+"autocmd FileType ruby,eruby set filetype=ruby.eruby.chef
+"Do not uncomment this. This breaks existing filetype detection
 
 " to highlight inner code block
 let g:markdown_fenced_languages = ['cpp', 'xml', 'json', 'sh', 'go', 'ruby', 'python', 'java', 'javascript', 'sql' ]
