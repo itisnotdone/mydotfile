@@ -217,6 +217,11 @@ nnoremap <leader>as :set paste!<cr>
 
 " " Toggling 'nu/nonu'
 nnoremap <leader>nb :set nu!<cr>
-" 
+
 " " Toggling 'wrap/nowrap'
 nnoremap <leader>wr :set wrap!<cr>
+
+" " Toggling 'syntax=yaml'
+nnoremap <leader>sy :set syntax=yaml<cr>
+
+let g:go_version_warning = 0
