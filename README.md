@@ -3,6 +3,8 @@ This was only tested on Ubuntu 16.04 so might not fit with your environment.
 
 ```bash
 # To get started
+sudo apt install -y vim git
+
 mkdir -p ~/.vim/bundle
 mkdir ~/.vim/sessions
 
