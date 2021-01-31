@@ -225,3 +225,4 @@ nnoremap <leader>wr :set wrap!<cr>
 nnoremap <leader>sy :set syntax=yaml<cr>
 
 let g:go_version_warning = 0
+let g:snipMate = { 'snippet_version' : 1 }
