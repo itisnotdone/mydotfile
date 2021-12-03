@@ -226,3 +226,6 @@ nnoremap <leader>sy :set syntax=yaml<cr>
 
 let g:go_version_warning = 0
 let g:snipMate = { 'snippet_version' : 1 }
+
+" to be able to open the yaml file with huge no-proxy value
+set mmp=5000
