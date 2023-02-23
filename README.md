@@ -8,7 +8,9 @@ sudo apt install -y vim git
 mkdir -p ~/.vim/bundle
 mkdir ~/.vim/sessions
 
-git clone https://github.com/VundleVim/Vundle.vim.git     ~/.vim/bundle/Vundle.vim
+# git clone https://github.com/VundleVim/Vundle.vim.git     ~/.vim/bundle/Vundle.vim
+git clone https://github.com/itisnotdone/Vundle.vim.git     ~/.vim/bundle/Vundle.vim
+
 git clone https://github.com/itisnotdone/mydotfile.git    ~/.vim/bundle/mydotfile
 
 sudo ln -s ~/.vim/bundle/mydotfile/.vimrc ~/.vimrc
